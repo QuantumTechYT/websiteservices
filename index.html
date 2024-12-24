@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review My Service</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Add Firebase SDK -->
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.0.0/firebase-firestore.js"></script>
+</head>
+<body>
+    <header>
+        <h1>🚀 Tech YouTuber & Web Designer Extraordinaire!</h1>
+        <p>Custom Website Development, Poster Design, Banner Design, Logo Design for Tech Creators</p>
+        <nav>
+            <a href="reviews.html">View Reviews</a>
+        </nav>
+    </header>
+
+    <section id="ad">
+        <h2>Special Pricing</h2>
+        <p>First 2 Projects: FREE! (To build up my portfolio!)</p>
+        <p>After that: Only $10 per project!</p>
+        <p>Bonus: Your website might get featured on my YouTube channel! 📺</p>
+    </section>
+
+    <section id="reviews">
+        <h2>Leave a Review</h2>
+        <form id="reviewForm">
+            <input type="text" id="name" placeholder="Your Name" required>
+            <textarea id="review" placeholder="Your Review" required></textarea>
+            <button type="submit">Submit Review</button>
+        </form>
+        <div id="reviewList">
+            <!-- Reviews will be displayed here -->
+        </div>
+    </section>
+
+    <footer>
+        <p>Payment Methods: PayPal, CashApp, Step, Other P2P apps accepted!</p>
+        <p>Rules: NO NSFW CONTENT 🔞, MUST LEAVE GOOD REVIEW ⭐</p>
+        <p>Availability: Friday - Sunday (Sometimes weekdays too!)</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
